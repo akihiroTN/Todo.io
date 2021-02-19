@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+}
+input {
+  border-radius: 10px;
+  text-align: center;
+  height: 20px;
+  border: none;
+}
+.input-area {
+  background-color: #c1ffff;
+  width: 400px;
+  height: 30px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px;
+  text-align: center;
+}
+.todo-area {
+  background-color: #c6ffe2;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px;
+}
+.done-area {
+  background-color: coral;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px;
+}
+button {
+  border-radius: 11px;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+}
+button:hover {
+  background-color: pink;
+  color: white;
+  cursor: pointer;
+}
+.title {
+  text-align: center;
+  margin-top: 0px;
+  font-weight: bold;
+  color: #666;
+}
+.list {
+  display: flex;
+  align-items: center;
+}
